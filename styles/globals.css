@@ -18,3 +18,38 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Titles */
+.title {
+  padding: 0 0 2% 0;
+}
+
+/* Beats Section */
+
+#beats {
+  margin: 4% 0;
+  padding: 2% 12px;
+}
+
+/* License Section */
+
+#licenses {
+  margin: 4% 0;
+  padding: 2% 0 0 0;
+}
+
+.license-box {
+  background-color: darkgray;
+  color: white;
+  margin: 0 0 2% 0;
+  padding: 2% 0;
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: black;
+  color: white;
+  margin: 4% 0;
+  padding: 2% 12px;
+}
