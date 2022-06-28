@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Image from "next/image"
+import Logo from "../public/images/ldbeetz_logo.png";
 import Link from "next/link";
 import SocialMedia from "./SocialMedia";
 
@@ -17,7 +19,7 @@ const Navbar = props => {
             <SocialMedia />
           </div>
           <div className="mx-auto order-0">
-            <Link href="/"><a className="navbar-brand" href="#">LD BEETZ</a></Link>
+            <Image className="navbar-brand" src={Logo} width="112px" height="112px" alt="Logo Pic"/>
             <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
               <span className="navbar-toggler-icon"></span>
             </button>
