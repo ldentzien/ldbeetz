@@ -18,12 +18,14 @@ const Navbar = props => {
           <div className={`${isNavCollapsed ? 'collapse' : 'text-center'} navbar-collapse w-100 order-1 order-md-0 dual-collapse2`}>
             <SocialMedia />
           </div>
-          <div className="mx-auto order-0">
-            <Image className="navbar-brand" src={Logo} width="112px" height="112px" alt="Logo Pic"/>
-            <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+          <div className="">
+            <div className="navbar-brand mx-auto order-0">
+            <Image src={Logo} width="100%" height="100%" alt="Logo Pic"/>
+            </div>
+          </div>
+          <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
               <span className="navbar-toggler-icon"></span>
             </button>
-          </div>
           <div className={`${isNavCollapsed ? 'collapse' : 'text-center'} navbar-collapse w-100 order-3 dual-collapse2`} id="navbarNav">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item active">
