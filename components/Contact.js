@@ -5,7 +5,7 @@ function Contact () {
         <div className="container-fluid" id="contact">
             <div className="container">
                 <div className="row text-center">
-                    <h2 className="title">Contact</h2>
+                    <h1 className="title">Contact</h1>
                     <h5>Email: </h5>
                     <h5><a href="mailto: ldbeetz@gmail.com">ldbeetz@gmail.com</a></h5>
                     <div className="d-flex justify-content-center">
