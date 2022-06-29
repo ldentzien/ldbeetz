@@ -6,7 +6,7 @@ function About () {
                 <h1 className="title">About Us</h1>
                 <div className="text-justify">
                     <h6>Great men with great ideals can be separated by hundreds or even thousands of miles and still be in the same place.</h6>
-                    <h6>They can be years or even generations apart in age, family, or strangers and yet, somehow, find themselves on the exact same page.</h6>
+                    <h6>They can be years or even generations apart in age and yet, somehow, find themselves on the exact same page.</h6>
                     <h6>When these men join forces to put the focus of reaching the same goals, to attain the same outcomes, they are not two, but one.</h6>
                     <h6>{`Instead of simply adding one's common attributes to another's, they somehow tend to multiply all attributes of both.`}</h6>
                     <br/>
