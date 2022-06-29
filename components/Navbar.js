@@ -35,6 +35,9 @@ const Navbar = props => {
                     <Link href="#licenses"><a className="nav-link" href="#">Licenses</a></Link>
                 </li>
                 <li className="nav-item">
+                    <Link href="#about"><a className="nav-link" href="#">About</a></Link>
+                </li>
+                <li className="nav-item">
                     <Link href="#contact"><a className="nav-link" href="#">Contact</a></Link>
                 </li>
               </ul>
