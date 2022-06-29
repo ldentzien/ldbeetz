@@ -33,10 +33,7 @@ a {
 
 /* License Section */
 
-#licenses {
-  margin: 4% 0;
-  padding: 2% 0 0 0;
-}
+
 
 /* About Section */
 
@@ -45,10 +42,15 @@ a {
   padding: 2% 12px;
 }
 
+.about-paragraph {
+  background-color: lightgoldenrodyellow;
+  padding: 2% 0;
+}
+
 .license-box {
-  background-color: darkgray;
+  background-color: lightseagreen;
   color: white;
-  margin: 0 2% 2% 2%;
+  margin: 2% 1% 0 1%;
   padding: 2% 0;
 }
 
@@ -57,6 +59,6 @@ a {
 #contact {
   background-color: black;
   color: white;
-  margin: 4% 0;
+  margin: 4% 0 0 0;
   padding: 2% 12px;
 }
